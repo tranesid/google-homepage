@@ -1,0 +1,79 @@
+.buttons {
+   color: #5F6368;
+    text-align: center;
+    line-height: 27px;
+    white-space: nowrap;
+    width: 130px;
+    border-color: transparent;
+ 
+}
+
+.searchbar {
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  border-color: #d3d3d3;
+}
+
+.logo {
+  width: 25%;
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+.navleft {
+  list-style-type: none;
+   
+}
+
+.navright {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.nav-button {
+  background-color: rgb(67, 135, 253);
+  color: white;
+  border: none;
+  height: 30px;
+}
+
+#apps {
+    display: inline-block;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position-x: -132px;
+    background-position-y: -38px;
+    background-size: 528px 68px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    opacity: 0.55;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgb(242, 242, 242);
+}
